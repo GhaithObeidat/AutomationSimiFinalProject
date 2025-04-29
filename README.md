@@ -54,15 +54,17 @@ The project includes 15 automated test cases targeting various UI components of 
 
 ## 🚀 Setup Instructions
 
-1. **Clone the repository:**
+ **Clone the repository:**
 
  
    git clone https://github.com/your-username/AutomationSimiFinalProject.git
    cd AutomationSimiFinalProject
+
 Install dependencies:
 
 
 mvn clean install
+
 Enable the tests you want to run:
 
 In AppTest.java, set @Test(enabled = true) on the desired test methods.
@@ -71,6 +73,7 @@ Run the tests via Maven:
 
 
 mvn test
+
 Or via a testng.xml file for better control (see below).
 
 📄 TestNG Suite Example
@@ -84,20 +87,32 @@ Or via a testng.xml file for better control (see below).
     </classes>
   </test>
 </suite>
+
+
+
 Run with:
 
-
 mvn test -DsuiteXmlFile=testng.xml
+
 🗂 Project Structure
 
 AutomationSimiFinalProject/
+
 ├── src/
-│   └── test/
-│       └── java/
-│           └── AutomationSimiFinalProject/
-│               └── AppTest.java
+
+└── test/
+
+└── java/
+
+└── AutomationSimiFinalProject/
+
+└── AppTest.java
+
 ├── pom.xml
+
 └── README.md
+
+
 👤 Author
 Ghaith Obeidat.
 
