@@ -91,14 +91,12 @@ Clicks a link to initiate the download of an APK file.
 
 1. **Clone the repository:**
 
-   ```bash
+ 
    git clone https://github.com/your-username/AutomationSimiFinalProject.git
    cd AutomationSimiFinalProject
 Install dependencies:
 
-bash
-Copy
-Edit
+
 mvn clean install
 Enable the tests you want to run:
 
@@ -106,16 +104,12 @@ In AppTest.java, set @Test(enabled = true) on the desired test methods.
 
 Run the tests via Maven:
 
-bash
-Copy
-Edit
+
 mvn test
 Or via a testng.xml file for better control (see below).
 
 📄 TestNG Suite Example
-xml
-Copy
-Edit
+
 <!-- testng.xml -->
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Automation Suite">
@@ -127,14 +121,10 @@ Edit
 </suite>
 Run with:
 
-bash
-Copy
-Edit
+
 mvn test -DsuiteXmlFile=testng.xml
 🗂 Project Structure
-bash
-Copy
-Edit
+
 AutomationSimiFinalProject/
 ├── src/
 │   └── test/
